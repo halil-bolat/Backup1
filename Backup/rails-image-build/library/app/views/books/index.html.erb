@@ -1,0 +1,10 @@
+<h1>posts index</h1>
+    <% @books.each do |book| %>
+    <div>
+      <p><%=book.id%></p>
+      <p><%=book.title%></p>
+      <p><%=book.author.first_name%></p>
+      <br>
+      <a href="/books/<%=book.id%>/edit">edit</a>
+    </div>
+    <% end %>
