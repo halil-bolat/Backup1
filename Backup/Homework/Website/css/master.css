@@ -1,0 +1,70 @@
+.menucenter {
+  font-weight:bold;
+  margin: auto;
+  font-size: 25px;
+}
+
+.FirstBox {
+    border-radius: 2%;
+    border:2px solid lightgrey;
+    padding:30px;
+    margin:auto;
+}
+
+.bmw-image  {
+  text-align: center;
+  background-color: white;
+}
+
+.bmw-image img {
+  text-align: center;
+  height:auto;
+  max-width:100%;
+  margin: 10px;
+}
+
+
+
+
+.navbarborder {
+  border-top: 3px solid lightgrey;
+  border-bottom: 3px solid lightgrey;
+}
+
+
+.main-containerr {
+  margin-left:5%;
+  margin-right:5%;
+}
+
+
+
+.infobox {
+    text-align: right;
+}
+
+.paragraphcenter {
+  text-align: center;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+
+.class14 {
+  font-size: 14px;
+}
+
+.align12 {
+    text-align:center;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.logostyle {
+  height:80px;
+}

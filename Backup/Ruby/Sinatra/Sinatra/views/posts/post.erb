@@ -1,0 +1,6 @@
+
+    <!-- <%=erb(:'partials/navigation', :layout => false )%> -->
+    <h1><%= @hello %></h1>
+    <h1><%=@post.title%></h1>
+    <p><%=@post.body%></p>
+    <a href="/<%=@post.id%>/edit">edit</a>

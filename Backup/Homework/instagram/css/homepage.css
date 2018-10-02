@@ -1,0 +1,121 @@
+
+.container {
+  /* background-color: red; */
+  width: 1000px;
+  display: block;
+  margin: auto;
+  height: 1000px;
+}
+
+
+body {
+  background-color: #f7f7f7;
+}
+h4 {
+  color: lightgrey;
+}
+span:after,
+span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
+
+button {
+  width: 200px;
+  color: white;
+  font-family: "Segoe UI Black";
+  border-radius: 5px;
+  background: rgb(81,151,233);
+  padding: 2px 13px 2px 13px;
+  border-style: none;
+}
+
+
+.picture {
+  float: left;
+  margin-top:100px;
+  width: 400px;
+  margin-left: 80px;
+}
+
+.mainpicture {
+  width:100%;
+}
+
+
+.textbox {
+  margin: 10px 112px 10px auto;
+  height: 50px;
+  width: 300px;
+  float: right;
+}
+.wrap{
+
+  background-color: white;
+  width: 250px;
+  height: auto;
+  border: 1px solid #cccccc;
+  margin: 160px 130px 10px;
+  text-align: center;
+  float:right;
+}
+
+.form1 {
+  background-color: white;
+  margin-top: 0;
+}
+
+
+.form2 {
+  height: 250px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.form3 {
+  background-color: white;
+  height: 60px;
+  margin-top: 10px;
+  margin: 10px auto 10px auto;
+
+}
+
+.form4 {
+  width: 100%;
+  height: auto;
+  float:right;
+  margin-right: 42px;
+  text-align: right;
+  margin-bottom: 20px;
+
+}
+
+.img-head {
+  width: 100%;
+}
+
+.text1 {
+  font-family: "Segoe UI";
+  font-size: 10.5px;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+.image-foot {
+  display: block;
+  width: 500px;
+  float:right;
+}
+
+.footer {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.footer img{
+  width: 100%;
+}
