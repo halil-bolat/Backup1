@@ -1,0 +1,6 @@
+<h1>New Post</h1>
+<%=erb :'partials/form', :layout =>false %>
+<form action="/<%= @post[:id]%>" method="post">
+  <input type="hidden" name="_method" value="NEW">
+  <input type="submit" value="New">
+</form>
